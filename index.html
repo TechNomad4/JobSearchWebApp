@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HireHorizons</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="menu">
+          <img src="./assets/logo.png" alt="logo" id="logo" />
+          <ul class="web-menu">
+            <li>
+              <a href="#" class="active-menu">Home</a>
+            </li>
+            <li>
+              <a href="#">Employer</a>
+            </li>
+            <li>
+              <a href="#">Candidate</a>
+            </li>
+          </ul>
+          <div class="menu-end web-menu">
+            <a href="#">Login</a>
+            <button class="btn-orange">Sign Up</button>
+          </div>
+          <!-- Mobile Nav -->
+          <ul class="mob-menu">
+            <li>
+              <a href="#" class="active-menu">Home</a>
+            </li>
+            <li>
+              <a href="#">Employer</a>
+            </li>
+            <li>
+              <a href="#">Candidate</a>
+            </li>
+            <li>
+              <a href="#">Login</a>
+            </li>
+            <li>
+              <button class="btn-orange">Sign Up</button>
+            </li>
+          </ul>
+          <div class="menu-btn">
+            <ion-icon
+              name="menu"
+              id="menu-icon"
+              onclick="onToggleMenu()"
+            ></ion-icon>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="content">
+        <h1>Find the job of your <span>Dreams</span></h1>
+        <p>
+          Discover your dream job on our site. We provide a platform with thousands of diverse opportunities. Search, apply, and advance your career with ease.
+        </p>
+        <h2>Trending Jobs keyword :</h2>
+        <div>
+          <span>Web Designer</span>
+          <span>UI/UX Designer</span>
+          <span>Frontend</span>
+        </div>
+        <div class="search-box">
+          <div>
+            <img src="./assets/search.png" />
+            <input type="text" placeholder="Job title or keyword" />
+          </div>
+          <div>
+            <img src="./assets/location.png" />
+            <input type="text" placeholder="Nairobi, kenya" />
+          </div>
+          <button class="btn-search">Search</button>
+        </div>
+      </div>
+      <img src="./assets/image-hero.png" alt="hero" />
+    </section>
+
+    <section class="companies">
+      <h4>Join Most Well Known <span>Companies</span> Around The World</h4>
+      <div>
+        <img src="./assets/slack.png" alt="" />
+        <img src="./assets/microsoft.png" alt="" />
+        <img src="./assets/google.png" alt="" />
+        <img src="./assets/airbnb.png" alt="" />
+      </div>
+    </section>
+
+    <section class="categories">
+      <h4>Choose Categories</h4>
+      <h2>Our Categories</h2>
+      <div class="categories-boxs">
+        <div class="box">
+          <img src="./assets/cat1.png" />
+          <div>
+            <h3>Marketing & Communication</h3>
+            <p>58 Jobs Available</p>
+          </div>
+        </div>
+        <div class="box active-box">
+          <img src="./assets/cat2.png" />
+          <div>
+            <h3>UI/UX Design</h3>
+            <p>128 Jobs Available</p>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./assets/cat3.png" />
+          <div>
+            <h3>Finace Management</h3>
+            <p>201 Jobs Available</p>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./assets/cat4.png" />
+          <div>
+            <h3>Project Management</h3>
+            <p>87 Jobs Available</p>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./assets/cat5.png" />
+          <div>
+            <h3>Business & Consulting</h3>
+            <p>23 Jobs Available</p>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./assets/cat6.png" />
+          <div>
+            <h3>Graphic Designer</h3>
+            <p>68 Jobs Available</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="profile">
+      <img src="./assets/profile.png" />
+      <div>
+        <h3>Create Profile</h3>
+        <h2>Build Your Personal Account Profile</h2>
+        <p>
+          Create an account for the job information you want, get daily
+          notifications and you can easily apply directly to the company you
+          want and create an account now for free
+        </p>
+        <br /><br />
+        <button class="btn-orange varient-two">Create Account</button>
+      </div>
+    </section>
+
+    <section class="work">
+      <div>
+        <h3>How it Works</h3>
+        <h2>Easy Step To Find and Apply Your Dream Job</h2>
+        <p>
+          We will help you to find your dream job easily, let us help you manage
+          everything you need
+        </p>
+        <br />
+        <div class="content-box">
+          <h3>Easy to upload Your Best CV and Portfolio</h3>
+          <p>You can upload your resume, CV, and portfolio directly to Job</p>
+          <br />
+          <h3>You Will Be Notified With All Updates</h3>
+          <p>
+            Get notified about new job vacancies. scheduled interview and job
+            application
+          </p>
+          <br />
+          <h3>Apply for your dream job from the best company</h3>
+          <p>
+            We will provide recommendations for your choice companies from all
+            over the world
+          </p>
+        </div>
+      </div>
+      <img src="./assets/work.png" />
+    </section>
+
+    <section class="subscribe">
+      <div class="sub-box">
+        <h2>Never Want to Miss Any Job News?</h2>
+        <div>
+          <input type="text" placeholder="Enter your email address..." />
+          <button class="btn-orange">Subscribe</button>
+          <img src="./assets/search.png" width="30" height="30" />
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div>
+        <img src="./assets/logo.png" id="logo" />
+        <p>
+          Welcome to our job search platform, where your career aspirations become reality. Explore thousands of job listings from diverse industries and locations. Discover the perfect job, apply with confidence, and take the next step in your professional journey. Your dream job awaits—start your search today.
+
+
+        </p>
+      </div>
+      <div>
+        <h2>Employer</h2>
+        <span>About Us</span>
+        <span>Careers</span>
+        <span>Blog</span>
+      </div>
+      <div>
+        <h2>Find Vacancy Based On</h2>
+        <span>Help Center</span>
+        <span>Job Location</span>
+        <span>Company Name</span>
+      </div>
+      <div>
+        <h2>Address</h2>
+        <span>hello@jobapp.com</span>
+        <span
+          >Westlands, Nairobi Kenya</span
+        >
+      </div>
+    </footer>
+
+    <script>
+      window.addEventListener("scroll", () => {
+        let nav = document.querySelector("nav");
+        nav.classList.toggle("sticky", window.scrollY > 0);
+      });
+      let menuIcon = document.querySelector("#menu-icon");
+      let mobMenu = document.querySelector(".mob-menu");
+      const onToggleMenu = () => {
+        menuIcon.name = menuIcon.name === "menu" ? "close" : "menu";
+        mobMenu.classList.toggle("open");
+      };
+    </script>
+  </body>
+</html>
